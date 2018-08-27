@@ -79,9 +79,9 @@
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost/happytrip_itr1" />
+		<property name="url" value="jdbc:mysql://database/happytrip_itr1" />
 		<property name="username" value="root" />
-		<property name="password" value="wonderfulday" />
+		<property name="password" value="dbroot123" />
 	</bean>
 
 	<bean id="redirectRoleStrategy"
